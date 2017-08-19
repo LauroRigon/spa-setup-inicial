@@ -22,12 +22,5 @@ export default [
         meta: {
             requireAuth: true
         }
-    },
-    {
-        path: '/teste',
-        component: require('../views/dashboard/user/User.vue'),
-        meta: {
-            requireAuth: true
-        }
     }
 ]
