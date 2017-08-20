@@ -2,9 +2,6 @@ import Vue from 'vue'
 
 import VueRouter from 'vue-router'
 
-//vuex store
-import store from '../vuex'
-
 //rotes
 import routes from '../App/routes.js'
 
@@ -15,7 +12,6 @@ Vue.use(VueRouter)
 
 const router = new VueRouter({
   routes,
-  store,
   linkActiveClass: 'active'
 })
 

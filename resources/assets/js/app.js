@@ -13,6 +13,8 @@ import App from './App.vue'
 
 import router from './router'
 
+import store from './vuex'
+
 Vue.component('vue-table', require('./components/dashboard/VueTable.vue'))
 
 const app = new Vue({
